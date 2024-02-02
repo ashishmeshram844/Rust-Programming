@@ -1,6 +1,10 @@
 use std::io::stdin;
 
+
+const VERSION: f32 = 1.2;          // conatant variable define
+
 fn main(){
+    println!("Version is {}",VERSION);
     let fname: &str = "Ashish";       //string  // immutable by default
     let lname: &str = "Meshram";      // string
     let mut age: u8 = 25;             //unsigned integer      // mutable
@@ -11,6 +15,7 @@ fn main(){
     println!("alive values is {}",alive);
     let starts: char = 'A';             // character
     println!("my name starts with {}",starts);
-    
+
+
 }
 
