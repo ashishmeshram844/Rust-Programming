@@ -6,4 +6,8 @@ fn main(){
     for i in rng {
         println!("{}",i)
     }
+    let names = ["ashish","ram","sham"];
+    for i in names.iter(){
+        println!("{}",i)
+    }
 }
