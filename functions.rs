@@ -8,8 +8,6 @@ fn add_nums(num1:i64, num2:i64){
     println!("{} + {}  = {}",num1,num2,sum);
 }
 
-
-
 fn main(){
     print_name();
     add_nums(5,10);
@@ -26,3 +24,4 @@ fn main(){
     convert_lower("ASHISH");
     find_len("ASHISH");
 }
+
