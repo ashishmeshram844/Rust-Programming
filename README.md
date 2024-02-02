@@ -6,6 +6,10 @@ below command is used to install rust in ubuntu or linux os
     sudo apt install rustc
 
 
+check version of rustc 
+
+    rustc -V
+
 ### To run specific file : 
 1. make a executable file using following command
         
