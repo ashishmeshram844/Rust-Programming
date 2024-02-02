@@ -10,5 +10,11 @@ fn main(){
     for i in names.iter(){
         println!("{}",i);
     }
-    println!(" all names : {:?}",names)
-}
+    println!(" all names : {:?}",names);
+
+    // iterate with index and array element
+    let fruits = vec!["mango","apple","banana"];
+    for (index,val) in fruits.iter().enumerate() {
+        println!("{} : {}",index,val);
+    }
+}   
