@@ -1,5 +1,11 @@
 # Rust-Programming
 
+### Install rust in Linux :
+below command is used to install rust in ubuntu or linux os
+
+    sudo apt install rustc
+
+
 ### To run specific file : 
 1. make a executable file using following command
         
@@ -14,4 +20,3 @@
     here "filename" is a file which auto created when run "rustc filename.rst" command
 
 
-    
