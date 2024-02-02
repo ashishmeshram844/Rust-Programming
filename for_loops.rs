@@ -4,10 +4,11 @@ fn main(){
     }
     let rng = 1..400;
     for i in rng {
-        println!("{}",i)
+        println!("{:?}",i);
     }
     let names = ["ashish","ram","sham"];
     for i in names.iter(){
-        println!("{}",i)
+        println!("{}",i);
     }
+    println!(" all names : {:?}",names)
 }
