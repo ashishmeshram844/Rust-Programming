@@ -6,6 +6,7 @@ fn main(){
     }
 
     // check odd even number 
+    number = 1;
     while number <= 40 {
         if number % 2 == 0 {
             println!("{} : even",number);
