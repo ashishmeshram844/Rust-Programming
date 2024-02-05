@@ -8,7 +8,7 @@ fn add_nums(num1:i64, num2:i64){
     println!("{} + {}  = {}",num1,num2,sum);
 }
 
-fn is_even(num:i64) -> bool {
+pub fn is_even(num:i64) -> bool {
     if num % 2 == 0{
         return true;
     }
