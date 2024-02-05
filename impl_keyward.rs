@@ -31,3 +31,4 @@ fn main(){
     println!("Multiplication of {} and {} is {}",calcy.num1, calcy.num2, calcy.multiplication());
     println!("Division of {} and {} is {}",calcy.num1, calcy.num2, calcy.division());
 }
+
