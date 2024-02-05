@@ -1,4 +1,4 @@
 fn main(){
-    println!("Hello world...");
+    print!("Hello world...\nsecond_line");
     println!("This is my first programme");
 }

@@ -8,6 +8,14 @@ fn add_nums(num1:i64, num2:i64){
     println!("{} + {}  = {}",num1,num2,sum);
 }
 
+fn is_even(num:i64) -> bool {
+    if num % 2 == 0{
+        return true;
+    }
+    return false;
+}
+
+
 fn main(){
     print_name();
     add_nums(5,10);
@@ -23,5 +31,8 @@ fn main(){
 
     convert_lower("ASHISH");
     find_len("ASHISH");
+
+    let res = is_even(20);
+    println!("{}",res);
 }
 

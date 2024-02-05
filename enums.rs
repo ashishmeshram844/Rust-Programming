@@ -15,5 +15,4 @@ fn main(){
         AvailNames::Ram => println!("Ram is here"),
         AvailNames::Sham => println!("Sham is here"),
     }
-
 } 
